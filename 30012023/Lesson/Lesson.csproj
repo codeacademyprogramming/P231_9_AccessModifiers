@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyClasses\MyClasses.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NewApp">
+      <HintPath>..\..\NewApp\NewApp\bin\Debug\netcoreapp3.1\NewApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
